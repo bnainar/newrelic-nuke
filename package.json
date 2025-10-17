@@ -1,0 +1,42 @@
+{
+  "name": "nuke-newrelic",
+  "version": "1.0.0",
+  "description": "A Node.js application to safely delete all alert policies, workflows, channels, and alert destinations from a New Relic account",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "newrelic",
+    "nuke",
+    "cleanup",
+    "automation",
+    "alerts",
+    "policies",
+    "destinations",
+    "workflows",
+    "channels",
+    "api",
+    "graphql"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/nuke-newrelic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/nuke-newrelic/issues"
+  },
+  "homepage": "https://github.com/yourusername/nuke-newrelic#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  }
+}
