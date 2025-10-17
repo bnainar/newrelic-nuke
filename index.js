@@ -1,4 +1,4 @@
-import NewRelicClient from "./src/newrelic_client.js";
+import NewRelicClient from "./newrelic_client.js";
 
 class NewRelicNuker {
   constructor() {
